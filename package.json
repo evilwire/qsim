@@ -1,0 +1,29 @@
+{
+  "name": "qsim",
+  "version": "0.1.0",
+  "description": "React modules for queues",
+  "devDependencies": {
+    "react-scripts": "0.8.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/evilwire/qsim.git"
+  },
+  "dependencies": {
+    "react": "^15.4.1",
+    "react-dom": "^15.4.1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/evilwire/qsim/issues"
+  },
+  "homepage": "https://github.com/evilwire/qsim#readme",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
