@@ -1,10 +1,23 @@
-.App {
-  text-align: center;
+.queue {
+  margin: 3vh auto;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+.qslot-row {
+  border: 0;
+  line-height: calc(6px + 1vw);
+}
+
+.column-heading {
+  margin: 5px;
+  text-align: left;
+}
+
+.column-heading div {
+  display: inline-block;
+  margin: 0 5px;
+}
+
+.App {
 }
 
 .App-header {
@@ -21,4 +34,18 @@
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
+}
+
+.column {
+  width: 25vw;
+  background-color: #eee;
+}
+
+.column-content {
+  width: 80%;
+  margin: auto;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+  display: flex;
+  flex-direction: column;
 }
